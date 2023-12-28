@@ -1,0 +1,74 @@
+* {
+    box-sizing: content-box;
+}
+
+.card {
+    --bs-card-spacer-x: 1rem;
+}
+
+.nav-link {
+    color: rgb(134, 134, 143);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(169, 173, 226);
+}
+
+.btn-primary {
+    --bs-btn-bg: rgb(89, 110, 158);
+    --bs-btn-border-color: rgb(80, 103, 156);
+    --bs-btn-hover-bg: rgb(100, 138, 226);
+    --bs-btn-active-bg: rgb(100, 138, 226);
+}
+
+.navbar-brand svg {
+    height: 25px;
+    width: 30px;
+    vertical-align: top;
+    margin-right: 0px;
+    margin-top: 0.1em;
+}
+
+.container-fluid {
+    --bs-gutter-x: 0.5rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0;
+    padding-right: 12px;
+}
+.navbar-toggler{
+    background-color: rgb(134, 134, 143);
+}
+
+.card-body p {
+    display: inline;
+}
+
+.card-body .price {
+    display: inline;
+}
+
+.info {
+    margin-top: 0.3em;
+}
+
+.button-buy p {
+    margin-bottom: 0;
+    margin-left: 5.2em;
+    
+}
+
+.button-buy a{
+    display: flex;
+    margin-top: 0.2em;
+    
+}
+
+.card-body .price-p {
+    text-decoration: line-through;
+    display: inline;
+    margin-left: 1.2em;
+    
+}
+

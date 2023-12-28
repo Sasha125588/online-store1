@@ -1,0 +1,67 @@
+.image-and-info {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.image-iphone {
+    display: block;
+}
+
+.image-iphone img {
+    width: 88%;
+    margin-top: 0.8em;
+}
+.path {
+    display: flex;
+    margin-left: 1.5em;
+    letter-spacing: -0.2px;
+    margin-bottom: -7px;
+    cursor: pointer;
+}
+.path a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+}
+
+
+.image-and-info .info {
+    display: block; 
+    box-sizing: content-box;
+  
+}
+.image-and-info h4 {
+    text-decoration: line-through;
+    margin-left: 1.2em;
+    margin-top: 0.5em;
+}
+ .image-and-info .info1 {
+    display: flex;
+ }
+
+
+.dollar {
+    display: flex;
+
+}
+.dollar p {
+    margin-left: 0.1em;
+}
+
+.image-and-info .buy {
+    display: flex;
+}
+
+.button-buy1 p {
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+}
+
+.button-buy1 a {
+    margin-top: 0.5em;
+    width: 80px;
+    
+}
+.content-item-title {
+    margin-left: 4em;
+}
